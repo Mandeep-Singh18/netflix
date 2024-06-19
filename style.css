@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+.main .box {
+    /* background-color: black; */
+    height:100vh;
+    width: 100vw;
+    /* opacity: 0.45; */
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+#blackbox{
+    background-color: black;
+    opacity: 0.45;
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 90px;
+    position: relative;
+    background-color: transparent;
+}
+
+nav img {
+    height: 40px;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    padding: 30px;
+}
+
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+    padding: 25px;
+}
+
+.hero>:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sepration{
+    height: 6px;
+    background-color: gray;
+    position: relative;
+}
+
+.btn-red-sn{
+    background-color: red;
+    padding: 6px 15px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    border:white;
+    cursor: pointer;
+}
+
+.btn-red{
+    color: white;
+    background-color: red;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero input{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.btn-eng{
+    background-color: transparent;
+    color: white;
+    padding: 6px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.first{
+    margin:20px;
+}
+
+.moviefront{
+    display: flex;
+    /* overflow: scroll; */
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#m1 img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#m2 img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#m3 img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#m4 img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#m5 img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#m7 img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+#m1 :hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+#m2 :hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+#m3:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+#m4 :hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+#m5 :hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+#m7 :hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.first h2{
+    color: white;
+    margin: 40px 0px;
+
+}
+
+.second{
+    color:white;
+    margin: 20px;
+}
+
+.box2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 80vw;
+    background-color:radial-gradient(94.35% 90.74% at 100% 100%, rgba(229, 9, 20, 0.50) 0%, rgba(23, 43, 71, 0.00) 100%);
+    border: 1px solid white;
+    border-radius: 10px;
+    max-height: 60vh;
+}
+.box2 img{
+    height: 400px;
+}
+
+.lines{
+    margin:40px 20px;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+}
+
+.box2 h2{
+    margin: 40px 20px;
+}
+
+.second h2{
+    margin: 40px 20px;
+}
+
+.faq{
+    color:white;
+}
+
+.faq h1{
+    color:white;
+    margin: 40px 20px;
+}
+
+.faqbox svg{
+    color: white;
+}
+
+.faqbox{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 60vw;
+    background-color: rgb(44, 43, 43);
+    margin:10px auto;
+    padding:30px 20px;
+    font-size: 25px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+
+.faqbox:hover{
+    background-color: rgb(231, 6, 6);
+    transform:scale(1.1);
+    transition:all 1s;
+}
+
+footer span{
+    color: white;
+    margin:80px 150px;
+}
+
+.footer{
+    margin:60px;
+}
+.footeritems{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 60vw;
+    padding: 14px;
+}
+
+.footeritems a{
+    color: rgb(111, 102, 102);
+}
+
+.footeritems a:hover{
+    color: rgb(234, 21, 21);;
+}
+
+/* Works in Firefox */
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Change this to the background color of your website */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Change this to the color you want for the scrollbar */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
+
+/* Works in Chrome, Edge, and Safari */
+/* Track */
+::-webkit-scrollbar {
+    width: 10px; /* You can adjust the width of the scrollbar */
+    background: #333; /* Change this to the background color of your website */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Change this to the color you want for the scrollbar */
+    border-radius: 8px; /* Adjust the border radius as needed */
+}
